@@ -1,0 +1,135 @@
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+body{
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+.project-card {
+    width: 320px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease,box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.skills-con{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+span{
+    background-color: wheat;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1) ;
+    font-weight: 600;
+}
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.social-links a:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-3px);
+}
+.resume-btn{
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+.resume:hover{
+    background-color: #1d4ed8;
+}
+footer {
+    margin-top: 50px;
+    color: grey;
+    font-size: 14px;
+}
+section {
+    margin-bottom: 70px;
+}
+.about p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: #1e293b;
+    font-size: 18px;
+}
+.skills-con span {
+    transition: transform 0.3s ease;
+}
+
+.skills-con span:hover {
+    transform: translateY(-3px);
+}
+.tagline {
+    color: #334155;
+    font-size: 18px;
+    margin-top: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.contact {
+    max-width: 700px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: #4b5563;
+    line-height: 1.8;
+}
+
+.contact-info {
+    margin-top: 25px;
+}
+
+.contact-info p {
+    margin: 12px 0;
+}
+
+.contact-info a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
